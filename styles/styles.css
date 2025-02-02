@@ -1,0 +1,276 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: table;
+  width: 100%;
+  font-family: "Barlow", "Tahoma", "Arial";
+  color: black;
+}
+
+header {
+  padding: 20px;
+}
+
+nav {
+  .navbar-brand {
+    margin-left: 10px;
+  }
+  box-shadow: 2px 2px 8px gray;
+}
+
+.nav-item {
+  font-weight: bold;
+  a:hover {
+    color: rgb(0, 134, 87);
+  }
+}
+
+.active {
+  border-bottom: 3px solid rgb(0, 134, 87);
+}
+
+footer {
+  display: table-row;
+  height: 100px;
+  box-shadow: 2px 2px 10px grey;
+  font-size: 1rem;
+}
+
+.main-index {
+  color: white;
+  background-image: url("../assets/images/bg-bon-index.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100%;
+}
+
+.main-register {
+  background-image: url("../assets/images/bg-bon-index.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100%;
+}
+
+.main-login {
+  background-image: url("../assets/images/bg-bon-index.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100%;
+}
+
+.main-profil {
+  color: black;
+}
+
+.index-sect {
+  margin: 5%;
+}
+
+#index-title {
+  line-height: 0;
+}
+
+#index-text-first {
+  color: #008657;
+  font-size: 4rem;
+}
+
+#events-title {
+  color: #008657;
+}
+
+#register-title {
+  text-align: center;
+  padding: 20px;
+}
+
+#profil-title {
+  text-align: center;
+  padding: 20px;
+}
+
+#login-title {
+  text-align: center;
+  padding: 20px;
+}
+
+#contact-title {
+  text-align: center;
+  padding: 20px;
+}
+
+#profil-title {
+  text-align: center;
+  padding: 20px;
+}
+
+#see-button-event {
+  border-radius: 40px;
+  padding: 1% 2%;
+}
+
+#form-register {
+  color: white;
+  background-color: rgb(0, 0, 0, 0.5);
+
+  text-align: right;
+
+  display: inline-block;
+  padding: 50px;
+  border-radius: 20px;
+
+  input {
+    border-radius: 5px;
+    border: 1px solid rgb(199, 199, 199);
+  }
+  input:hover {
+    border: 1px solid grey;
+  }
+}
+
+#form-login {
+  color: white;
+  background-color: rgb(0, 0, 0, 0.5);
+
+  text-align: right;
+
+  display: inline-block;
+  padding: 50px;
+  border-radius: 20px;
+
+  input {
+    border-radius: 5px;
+    border: 1px solid rgb(199, 199, 199);
+  }
+  input:hover {
+    border: 1px solid grey;
+  }
+}
+
+#form-contact {
+  text-align: left;
+  border-left: 1px solid black;
+  padding-left: 30%;
+
+  input {
+    border-radius: 5px;
+    border: 1px solid rgb(199, 199, 199);
+    min-height: 40px;
+    min-width: 80%;
+  }
+
+  input:hover {
+    border: 1px solid grey;
+  }
+
+  textarea {
+    border-radius: 10px;
+    border: 1px solid rgb(199, 199, 199);
+    min-height: 80px;
+    min-width: 80%;
+  }
+
+  textarea:hover {
+    border: 1px solid grey;
+  }
+}
+
+#form-profil {
+  text-align: left;
+  border-left: 1px solid black;
+  padding-left: 30%;
+
+  input {
+    border-radius: 5px;
+    border: 1px solid rgb(199, 199, 199);
+    min-height: 40px;
+    min-width: 80%;
+  }
+
+  input:hover {
+    border: 1px solid grey;
+  }
+
+  button {
+    background-color: rgb(199, 199, 199);
+  }
+
+  button:hover {
+    background-color: grey;
+  }
+}
+
+#form-modify-name {
+  text-align: left;
+  border-left: 1px solid black;
+  padding-left: 30%;
+
+  input {
+    border-radius: 5px;
+    border: 1px solid rgb(199, 199, 199);
+    min-height: 40px;
+    min-width: 80%;
+  }
+
+  input:hover {
+    border: 1px solid grey;
+  }
+
+  button {
+    background-color: rgb(199, 199, 199);
+  }
+
+  button:hover {
+    background-color: grey;
+  }
+}
+
+#form-modify-mdp {
+  text-align: left;
+  border-left: 1px solid black;
+  padding-left: 30%;
+
+  input {
+    border-radius: 5px;
+    border: 1px solid rgb(199, 199, 199);
+    min-height: 40px;
+    min-width: 80%;
+  }
+
+  input:hover {
+    border: 1px solid grey;
+  }
+}
+
+.row-title-contact {
+  line-height: 0;
+}
+
+.row-title-profil {
+  line-height: 0;
+}
+#profil {
+  img {
+    width: 210px;
+    height: 200px;
+    border-radius: 80%;
+    border: 2px solid black;
+  }
+}
+
+.card {
+  border-left: 4px solid #008657;
+  border-right: 4px solid #008657;
+}
+
+.card-subtitle {
+  font-style: italic;
+  padding: 2px;
+}
