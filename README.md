@@ -1,7 +1,6 @@
 🎉 Events Manager
 
-Un site web interactif permettant aux utilisateurs de consulter des événements, de s'inscrire et de gérer leur profil utilisateur. Ce projet intègre les meilleures pratiques du développement web moderne pour offrir une expérience fluide et optimisée.
-
+Un site web interactif permettant aux utilisateurs de consulter des événements, de s'inscrire et de gérer leur profil utilisateur. 
 🎯 Objectifs du Projet
 
 ✅ Structurer le site en HTML5 avec des balises sémantiques.
